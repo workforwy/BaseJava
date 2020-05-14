@@ -1,10 +1,10 @@
 package chapter21_∑¥…‰.day2203;
 
-import java.lang.reflect.Method;
-import java.util.Scanner;
-
 import org.dom4j.Document;
 import org.dom4j.io.SAXReader;
+
+import java.lang.reflect.Method;
+import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) throws Exception {

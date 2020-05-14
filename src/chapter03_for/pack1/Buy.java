@@ -1,4 +1,4 @@
-package chapter01;
+package chapter03_for.pack1;
 
 public class Buy {
     public static void main(String[] args) {

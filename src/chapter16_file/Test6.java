@@ -1,7 +1,6 @@
-package tarena.day1702;
+package chapter16_file;
 
 import java.io.File;
-import java.util.Iterator;
 
 public class Test6 {
 	public static void main(String[] args) {

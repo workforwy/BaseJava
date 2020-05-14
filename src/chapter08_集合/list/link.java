@@ -1,4 +1,4 @@
-package chapter08_array.list;
+package chapter08_¼¯ºÏ.list;
 
 import java.util.Iterator;
 import java.util.LinkedList;

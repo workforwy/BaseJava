@@ -1,4 +1,4 @@
-package chapter08_array.choushu;
+package chapter08_¼¯ºÏ.choushu;
 
 import java.math.BigInteger;
 import java.util.LinkedList;

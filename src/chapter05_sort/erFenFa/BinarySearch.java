@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.naming.BinaryRefAddr;
-
 public class BinarySearch {
     public static void main(String[] args) {
         int[] a = random();// 产生随机数组

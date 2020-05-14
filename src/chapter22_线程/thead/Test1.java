@@ -1,7 +1,5 @@
 package chapter22_Ïß³Ì.thead;
 
-import java.util.Iterator;
-
 public class Test1 {
 	public static void main(String[] args) {
 		long a = System.currentTimeMillis();

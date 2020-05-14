@@ -1,4 +1,4 @@
-package tarena.day0503;
+package chapter04_list;
 
 import java.util.Arrays;
 import java.util.Random;

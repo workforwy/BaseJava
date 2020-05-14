@@ -1,4 +1,4 @@
-package chapter07_extend.transformer;
+package chapter07_¼Ì³Ğ.transformer;
 
 public interface Weapon {
 	//public static final ¿ÉÒÔÊ¡ÂÔ

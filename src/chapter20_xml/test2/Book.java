@@ -1,4 +1,4 @@
-package chapter20_xml.day2101_xml;
+package chapter20_xml.test2;
 
 import java.util.ArrayList;
 import java.util.List;

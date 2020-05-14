@@ -1,8 +1,6 @@
-package tarena.day1403;
+package chapter13_À„ Ωº∆À„;
 
 import java.util.Scanner;
-
-import tarena.day1403.Formula.DieDaiQi;
 
 public class Test2 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapter20_xml.day2004;
+package chapter20_xml.test1;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

@@ -1,4 +1,4 @@
-package chapter08_array.collection;
+package chapter08_¼¯ºÏ.collection;
 
 import java.util.ArrayList;
 import java.util.Collections;

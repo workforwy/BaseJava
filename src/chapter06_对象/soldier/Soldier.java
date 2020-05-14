@@ -1,4 +1,4 @@
-package chapter06_object.soldier;
+package chapter06_¶ÔÏó.soldier;
 
 import java.util.Random;
 

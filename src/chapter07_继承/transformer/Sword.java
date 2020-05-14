@@ -1,4 +1,4 @@
-package chapter07_extend.transformer;
+package chapter07_ผฬณะ.transformer;
 
 public class Sword implements Weapon{
 	@Override

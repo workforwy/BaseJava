@@ -1,4 +1,4 @@
-package chapter07_extend.points;
+package chapter07_ผฬณะ.points;
 
 public class Test2 {
 	public static void main(String[] args) {

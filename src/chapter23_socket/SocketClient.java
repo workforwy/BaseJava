@@ -1,4 +1,4 @@
-package wy.socket;
+package chapter23_socket;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

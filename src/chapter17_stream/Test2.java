@@ -1,10 +1,6 @@
-package tare.day1802;
+package chapter17_stream;
 
-import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 public class Test2 {
 	public static void main(String[] args) throws Exception {

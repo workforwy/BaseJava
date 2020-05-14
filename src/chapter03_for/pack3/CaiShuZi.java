@@ -1,4 +1,4 @@
-package tarena.day0408;
+package chapter03_for.pack3;
 
 import java.util.Random;
 import java.util.Scanner;

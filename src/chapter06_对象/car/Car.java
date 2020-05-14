@@ -1,4 +1,4 @@
-package chapter06_object.car;
+package chapter06_¶ÔÏó.car;
 
 /*
  * ·â×°£º

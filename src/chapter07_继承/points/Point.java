@@ -1,4 +1,4 @@
-package chapter07_extend.points;
+package chapter07_ผฬณะ.points;
 
 public class Point {
 	int x;

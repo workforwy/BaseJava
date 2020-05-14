@@ -1,4 +1,4 @@
-package chapter11_包装类;
+package chapter11_包装类与内部类.pack1;
 
 /**
  * 包装类

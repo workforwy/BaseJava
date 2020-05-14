@@ -1,4 +1,4 @@
-package chapter06_object.dog;
+package chapter06_对象.dog;
 
 //封装： 成员（狗）的属性、方法封装在一个类组件中
 public class Dog {

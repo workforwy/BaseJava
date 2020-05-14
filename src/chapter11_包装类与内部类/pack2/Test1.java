@@ -1,4 +1,4 @@
-package chapter11_包装类.pack2;
+package chapter11_包装类与内部类.pack2;
 
 public class Test1 {
     public static void main(String[] args) {

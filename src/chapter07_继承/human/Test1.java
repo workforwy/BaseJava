@@ -1,4 +1,4 @@
-package chapter07_extend.human;
+package chapter07_ผฬณะ.human;
 
 public class Test1 {
 	public static void main(String[] args) {

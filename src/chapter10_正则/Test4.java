@@ -1,4 +1,4 @@
-package tarena.day1302;
+package chapter10_ÕıÔò;
 
 import java.util.Scanner;
 

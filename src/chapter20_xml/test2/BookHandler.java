@@ -1,4 +1,4 @@
-package chapter20_xml.day2101_xml;
+package chapter20_xml.test2;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -7,7 +7,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
+/**
  * 1.创建图书对象，放入集合 startElement（）方法中，判断标签名是Book
  * 2.文本填入图书对象 endElement()方法中，将完整文本填入Book对象
  */

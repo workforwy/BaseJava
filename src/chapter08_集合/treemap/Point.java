@@ -1,4 +1,4 @@
-package chapter08_array.treemap;
+package chapter08_¼¯ºÏ.treemap;
 
 public class Point implements Comparable<Point> {
 	private int x;

@@ -1,4 +1,4 @@
-package base;
+package chapter26_formula;
 
 import java.math.BigDecimal;
 import java.util.LinkedList;

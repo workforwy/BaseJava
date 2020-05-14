@@ -1,4 +1,4 @@
-package day02_function;
+package chapter02_function;
 
 import java.util.Scanner;
 

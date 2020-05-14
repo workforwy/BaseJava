@@ -1,16 +1,15 @@
-package wy.socket;
+package chapter23_socket;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
  * 服务端程序
  */
-public class socketService {
+public class SocketService {
 	public static void main(String[] args) {
 		try {
 			// 服务端口号:0~65535

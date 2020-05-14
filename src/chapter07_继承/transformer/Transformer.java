@@ -1,4 +1,4 @@
-package chapter07_extend.transformer;
+package chapter07_继承.transformer;
 
 public class Transformer {
 	private Weapon w;// 变形金刚使用武器接口 在变形金刚里放一个武器成员变量

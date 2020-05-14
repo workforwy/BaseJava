@@ -1,4 +1,4 @@
-package chapter20_xml.day2101_xml;
+package chapter20_xml.test2;
 
 import org.dom4j.Document;
 import org.dom4j.Element;

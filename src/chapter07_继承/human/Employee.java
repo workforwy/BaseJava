@@ -1,4 +1,4 @@
-package chapter07_extend.human;
+package chapter07_ผฬณะ.human;
 
 public class Employee extends Person {
 	String company;

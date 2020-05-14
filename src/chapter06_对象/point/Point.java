@@ -1,4 +1,4 @@
-package chapter06_object.point;
+package chapter06_对象.point;
 
 public class Point {
 	int x;// 成员变量

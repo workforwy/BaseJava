@@ -1,4 +1,4 @@
-package chapter20_xml.day2004;
+package chapter01;
 
 public class Test1 {
 	public static void main(String[] args) {

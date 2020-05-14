@@ -1,4 +1,4 @@
-package base2;
+package chapter03_for.pack2;
 
 public class Multiplication {
     public static void main(String[] args) {

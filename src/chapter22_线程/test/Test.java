@@ -1,4 +1,4 @@
-package com.wy.test;
+package chapter22_线程.test;
 /**
  * 生产者和消费者的关系
  * 

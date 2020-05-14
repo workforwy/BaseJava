@@ -1,10 +1,10 @@
-package base;
+package chapter26_formula;
 
 import java.util.Scanner;
 
 public class Test2 {
 	public static void main(String[] args) {
-		System.out.println("������ʽ��");
+		System.out.println("请输入一个字符串:");
 		String s=new Scanner(System.in).nextLine();
 		
 		Formula2 a=new Formula2(s);

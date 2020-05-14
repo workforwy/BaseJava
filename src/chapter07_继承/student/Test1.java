@@ -1,4 +1,4 @@
-package chapter07_extend.student;
+package chapter07_ผฬณะ.student;
 
 public class Test1 {
 	public static void main(String[] args) {

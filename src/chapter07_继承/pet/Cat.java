@@ -1,4 +1,4 @@
-package chapter07_extend.pet;
+package chapter07_ผฬณะ.pet;
 
 public class Cat extends Pet {
 

@@ -1,9 +1,8 @@
-package tare.day1802;
+package chapter17_stream;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 /**

@@ -1,4 +1,4 @@
-package tarena.day2003;
+package chapter19_serializable;
 
 import java.io.Serializable;
 

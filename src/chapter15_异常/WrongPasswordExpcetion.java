@@ -1,4 +1,4 @@
-package tarena.day1701;
+package chapter15_“Ï≥£;
 
 public class WrongPasswordExpcetion extends Exception {
 

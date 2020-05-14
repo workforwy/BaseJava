@@ -1,4 +1,4 @@
-package chapter06_object.dog;
+package chapter06_¶ÔÏó.dog;
 
 public class Test {
 	public static void main(String[] args) {

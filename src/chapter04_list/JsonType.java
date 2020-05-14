@@ -1,4 +1,4 @@
-package tarena.day0503;
+package chapter04_list;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ public class JsonType {
         map.put("pass", "4355");
         map.put("jos", "999");
         map.put("wang", "999");
-        tarena.day0503.JsonType jsonType = new tarena.day0503.JsonType();
+        JsonType jsonType = new JsonType();
         String mm = jsonType.simpleMapToJsonStr(map);
         System.out.println(mm);
         Map mp = jsonType.getData(mm);

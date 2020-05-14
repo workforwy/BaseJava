@@ -1,4 +1,4 @@
-package chapter20_xml.day2101_xml;
+package chapter20_xml.test2;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;

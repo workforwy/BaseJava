@@ -1,4 +1,4 @@
-package chapter06_object.student;
+package chapter06_¶ÔÏó.student;
 
 public class Student {
 	int id;

@@ -1,10 +1,11 @@
-package chapter11_包装类.pack2;
+package chapter11_包装类与内部类.pack2;
 
 public class Test2 {
+
     public static void main(String[] args) {
         Weapon w1 = f1();
         w1.kill();
-        Weapon w2 = f2("���콣");
+        Weapon w2 = f2("大刀");
         w2.kill();
     }
 
@@ -12,7 +13,7 @@ public class Test2 {
         class AK47 implements Weapon {
             @Override
             public void kill() {
-                System.out.println("ʹ��AK47����");
+                System.out.println("获取热武器AK47");
             }
 
             @Override
@@ -22,7 +23,7 @@ public class Test2 {
 
             @Override
             public int getType() {
-                return 0;
+                return Weapon.TPYE_HEAT;
             }
         }
         Weapon a = new AK47();
@@ -32,7 +33,7 @@ public class Test2 {
     static Weapon f2(final String name) {
         Weapon w = new Weapon() {
             public void kill() {
-                System.out.println("ʹ��" + name + "����");
+                System.out.println("ʹ获取" + name + "武器");
             }
 
             @Override
@@ -42,7 +43,7 @@ public class Test2 {
 
             @Override
             public int getType() {
-                return 0;
+                return Weapon.TPYE_COLD;
             }
         };
         return w;

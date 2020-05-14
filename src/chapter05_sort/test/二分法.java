@@ -1,10 +1,8 @@
-package test;
+package chapter05_sort.test;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
-import javax.naming.BinaryRefAddr;
 
 public class ¶þ·Ö·¨ {
 	public static void main(String[] args) {

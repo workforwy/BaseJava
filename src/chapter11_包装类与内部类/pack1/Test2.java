@@ -1,4 +1,4 @@
-package chapter11_包装类;
+package chapter11_包装类与内部类.pack1;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

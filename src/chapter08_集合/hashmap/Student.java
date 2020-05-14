@@ -1,4 +1,4 @@
-package chapter08_array.hashmap;
+package chapter08_¼¯ºÏ.hashmap;
 
 public class Student {
 	private int id;

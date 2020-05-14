@@ -1,10 +1,8 @@
-package tarena.day1302;
+package chapter10_ÕıÔò;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javax.swing.text.StyleContext.SmallAttributeSet;
 
 public class Test5 {
 	public static void main(String[] args) {

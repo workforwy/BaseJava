@@ -1,4 +1,4 @@
-package chapter06_object.object;
+package chapter06_¶ÔÏó.object;
 
 public class Point {
 	private int x;

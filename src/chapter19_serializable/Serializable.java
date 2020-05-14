@@ -1,12 +1,9 @@
-package tarena.day2003;
+package chapter19_serializable;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.nio.channels.WritableByteChannel;
 
 /**
  * 进行序列化的条件：
@@ -15,19 +12,19 @@ import java.nio.channels.WritableByteChannel;
  * 3.序列化对象时，对象的所有属性（不包括基本类型）都必须也实现了Serializable借口才行
  */
 public class Serializable {
-	public static void main(String[] args) throws Exception {
-		Person person = new Person("张三", 23);
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("d:/abc/f9"));
-		out.writeObject(person);
-		Person person2 = new Person("李四", 26);
-		out.writeObject(person2);
-		out.close();
+    public static void main(String[] args) throws Exception {
+        Person person = new Person("张三", 23);
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("d:/abc/f9"));
+        out.writeObject(person);
+        Person person2 = new Person("李四", 26);
+        out.writeObject(person2);
+        out.close();
 
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("d:/abc/f9"));
-		Person p = (Person) in.readObject();
-		System.out.println(p);
-		Person p2 = (Person) in.readObject();
-		System.out.println(p2);
-		in.close();
-	}
+        ObjectInputStream in = new ObjectInputStream(new FileInputStream("d:/abc/f9"));
+        Person p = (Person) in.readObject();
+        System.out.println(p);
+        Person p2 = (Person) in.readObject();
+        System.out.println(p2);
+        in.close();
+    }
 }

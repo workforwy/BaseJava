@@ -1,4 +1,4 @@
-package base2;
+package chapter03_for.pack2;
 
 import java.util.Scanner;
 

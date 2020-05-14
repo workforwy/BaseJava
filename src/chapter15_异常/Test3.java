@@ -1,10 +1,6 @@
-package tarena.day1701;
+package chapter15_“Ï≥£;
 
 import java.util.Scanner;
-
-import javax.security.auth.login.LoginException;
-
-import org.omg.CORBA.UserException;
 
 public class Test3 {
 	public static void main(String[] args) {

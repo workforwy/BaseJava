@@ -1,9 +1,9 @@
-package chapter25.httpserver;
+package chapter25_http.httpserver;
 
-import java.net.*;
 import java.io.*;
-import java.util.*;
-import java.lang.*;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.StringTokenizer;
 
 public class httpServer {
 	// 实现了tomcat的功能

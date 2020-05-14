@@ -1,9 +1,8 @@
-package chapter25.demo;
+package chapter25_http.demo;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
-import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.ArrayList;

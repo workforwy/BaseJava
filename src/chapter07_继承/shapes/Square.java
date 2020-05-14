@@ -1,4 +1,4 @@
-package chapter07_extend.shapes;
+package chapter07_ผฬณะ.shapes;
 
 public class Square extends Shape{
 	public void draw() {

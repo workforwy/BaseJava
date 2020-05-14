@@ -1,4 +1,4 @@
-package chapter06_object.point;
+package chapter06_¶ÔÏó.point;
 
 public class Test {
 	public static void main(String[] args) {

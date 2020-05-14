@@ -1,4 +1,4 @@
-package tare.day1802;
+package chapter17_stream;
 
 import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
