@@ -1,0 +1,18 @@
+<!DOCTYPE email SYSTEM "email.dtd">
+<email date="2015-12-24" time="16:44:44">
+	<!-- 这是一个注释 -->
+	<from>wy@qq.com</from>
+	<to>
+		<to-email>333@qq.com
+		</to-email>
+		<to-email>111@qq.com
+		</to-email>
+		<to-email>222@qq.com
+		</to-email>
+	</to>
+	<subject>你大爷！</subject>
+	<body>
+		你二大爷
+		&gt;&gt;&gt;你三大爷
+	</body>
+</email>

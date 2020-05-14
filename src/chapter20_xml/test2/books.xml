@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<books>
+	<book isbn="123456">
+		<name>
+			xml 入门
+		</name>
+		<authors>
+			<author>
+				张三
+			</author>
+			<author>
+				李四
+			</author>
+		</authors>
+		<publisher>
+			tarena出版社
+		</publisher>
+		<pages>
+			256
+		</pages>
+		<price>
+			11元
+		</price>
+	</book>
+	<book isbn="11111111111">
+		<name>
+			xml精通
+		</name>
+		<authors>
+			<author>
+				你大爷
+			</author>
+			<author>
+				你二大爷
+			</author>
+		</authors>
+		<publisher>
+			tarena出版社
+		</publisher>
+		<pages>
+			100
+		</pages>
+		<price>
+			￥1元
+		</price>
+	</book>
+</books>

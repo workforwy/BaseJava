@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT email (from,to,subject,body)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (to-email+)>
+<!ELEMENT to-email (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ATTLIST email 
+		  data CDATA #REQUIRED
+		  time CDATA #IMPLIED>
