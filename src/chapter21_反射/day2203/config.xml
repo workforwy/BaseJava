@@ -1,8 +1,0 @@
-<cfg>
-    <Activity
-        name="tarena.day2203.MainActivity" 
-        />
-       <Button
-           onClick="doClick"/>
-  
-</cfg>
