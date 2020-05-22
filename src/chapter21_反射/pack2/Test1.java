@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) throws Exception {
-		String path = Test1.class.getResource("/config.xml").getPath();
+		String path = Test1.class.getResource("config.xml").getPath();
 		SAXReader reader = new SAXReader();
 		Document doc = reader.read(path);
 		String className = doc.valueOf("/cfg/Activity/@name");

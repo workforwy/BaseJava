@@ -1,5 +1,7 @@
 package chapter01;
 
+import java.util.Objects;
+
 public class Test1 {
 	public static void main(String[] args) {
 		int i = 6;
