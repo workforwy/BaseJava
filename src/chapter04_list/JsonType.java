@@ -1,13 +1,14 @@
 package chapter04_list;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
 public class JsonType {
 
-    public static void main(String args[]) {
-        Map<String, String> map = new HashMap();
+    public static void main(String[] args) {
+        Map<String,String> map = new HashMap();
         map.put("name", "12342");
         map.put("pass", "4355");
         map.put("jos", "999");

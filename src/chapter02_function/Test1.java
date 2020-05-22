@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Test1 {
 
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥æ•´æ•°ï¼š");
+        System.out.println("ÊäÈëÕûÊý:");
         int n = new Scanner(System.in).nextInt();
         /*
-         * è°ƒç”¨fï¼ˆï¼‰æ–¹æ³•ï¼Œå°†nçš„å€¼ï¼Œä¼ é€’åˆ°fï¼ˆï¼‰è¿›è¡Œè¿ç®— ç„¶åŽå¾—åˆ°å®ƒçš„è¿”å›žå€¼ï¼Œèµ‹ç»™å˜é‡r æ˜¾ç¤ºå˜é‡rçš„å€¼
+         * µ÷ÓÃf£¨£©·½·¨£¬½«nµÄÖµ£¬´«µÝµ½f£¨£©½øÐÐÔËËã È»ºóµÃµ½ËüµÄ·µ»ØÖµ£¬¸³¸ø±äÁ¿r ÏÔÊ¾±äÁ¿rµÄÖµ
          */
         int r = fun(n);
         System.out.println(r);
     }
 
     /**
-     * 1.è¿”å›žç±»åž‹
-     * 2.æ–¹æ³•å
-     * 3.å‚æ•°åˆ—è¡¨
+     * 1.·µ»ØÀàÐÍ
+     * 2.·½·¨Ãû
+     * 3.²ÎÊýÁÐ±í
      */
     static int fun(int n) {
         if (n > 0) {

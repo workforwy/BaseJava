@@ -10,11 +10,11 @@ public class ShuangSeQiu {
          */
         int[] r = new int[33];
         int[] b = new int[16];
-        for (int i = 0; i < r.length; i++) {
-            r[i] = i + 1;
+        for (int i = 1; i <= r.length; i++) {
+            r[i-1] = i ;
         }
-        for (int i = 0; i < b.length; i++) {
-            b[i] = i + 1;
+        for (int i = 1; i <= b.length; i++) {
+            b[i-1] = i ;
         }
         System.out.println(Arrays.toString(r));
         System.out.println(Arrays.toString(b));

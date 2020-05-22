@@ -28,8 +28,14 @@ public class BinarySearch {
 
     private static int binarysearch(int[] a, int t) {
         /*
-         * 1.定义下标变量 lo=0 hi=a.length-1 mid 2.当lo<=hi 3.mid=(lo+hi)/2 4.如果mid
-         * 位置的值比目标值t小， 5.lo移动到mid+1 6.否则 如果mid位置的值比t大 7.hi移动到mid-1 8.否则，返回mid值
+         * 1.定义下标变量 lo=0 hi=a.length-1 mid
+         * 2.当lo<=hi
+         * 3.mid=(lo+hi)/2
+         * 4.如果mid 位置的值比目标值t小，
+         * 5.lo移动到mid+1
+         * 6.否则 如果mid位置的值比t大
+         * 7.hi移动到mid-1
+         * 8.否则，返回mid值
          * 9.找不到返回一个无意义值-（lo+1）
          */
         int lo = 0;
@@ -44,6 +50,6 @@ public class BinarySearch {
             else
                 return mid;
         }
-        return -(lo + 1);
+        return -1;
     }
 }

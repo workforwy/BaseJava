@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥æ•´æ•°æ±‚é˜¶ä¹˜");
+        System.out.println("ÊäÈëÕûÊýÇó½×³Ë");
         int n = new Scanner(System.in).nextInt();
         long r = f(n);
         System.out.println(r);
     }
 
     /**
-     * 1.å®šä¹‰å˜é‡r=1L 2.å¾ªçŽ¯iä»Žnåˆ°>=1é€’å‡ 3.r*=i 4.è¿”å›žrçš„å€¼
+     * 1.¶¨Òå±äÁ¿r=1L 2.Ñ­»·i´Ónµ½>=1µÝ¼õ 3.r*=i 4.·µ»ØrµÄÖµ
      */
-    static long f(int n) {
+    private static long f(int n) {
         long r = 1L;
         for (int i = n; i >= 1; i--) {
             r *= i;// r=r*i

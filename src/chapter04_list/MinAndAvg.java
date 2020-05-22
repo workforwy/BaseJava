@@ -3,8 +3,6 @@ package chapter04_list;
 import java.util.Arrays;
 import java.util.Random;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
-
 public class MinAndAvg {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -14,8 +12,8 @@ public class MinAndAvg {
         System.out.println(Arrays.toString(a));
         int m = Min(a);
         System.out.println("数组中最小的是：" + m);
-        int avg = avg(a);
-        System.out.println("数组平均值是：" + avg);
+
+        System.out.println("数组平均值是：" + avg(a));
     }
 
     /**
@@ -33,9 +31,10 @@ public class MinAndAvg {
 
     /**
      * 定义累加变量sum=0 循环从i从到a.length递增 向sum累加a[i] 返回sum/a.length
+     * @return
      */
-    private static int avg(int[] a) {
-        int sum = 0;
+    private static double avg(int[] a) {
+        double sum = 0.0;
         for (int i = 0; i < a.length; i++) {
             // sum=sum+a[i]
             sum += a[i];

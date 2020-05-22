@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class QiuPai {
 
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥è¿ç®—æ¬¡æ•°ï¼š");
+        System.out.println("ÊäÈëÔËËã´ÎÊı£º");
         int n = new Scanner(System.in).nextInt();
         double pi = f(n);
         System.out.println(pi);
     }
 
     /**
-     * 1.è¿”å›ç±»å‹
-     * 2.æ–¹æ³•å
-     * 3.å‚æ•°åˆ—è¡¨
+     * 1.·µ»ØÀàĞÍ
+     * 2.·½·¨Ãû
+     * 3.²ÎÊıÁĞ±í
      *
      * @param n
      * @return
      */
     static double f(int n) {
         /*
-         * sum ç´¯åŠ å˜é‡ a åˆ†å­ b åˆ†æ¯ i æ¬¡æ•°
+         * sum ÀÛ¼Ó±äÁ¿ a ·Ö×Ó b ·ÖÄ¸ i ´ÎÊı
          */
         double sum = 0;
         for (int a = 1, b = 1, i = 0; i < n; a *= -1, b += 2, i++) {

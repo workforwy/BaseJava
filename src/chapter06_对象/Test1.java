@@ -1,4 +1,4 @@
-package chapter06_对象.base;
+package chapter06_对象;
 
 public class Test1 {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Test1 {
     public static void main(String[] args) {
-        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²:");
+        System.out.println("ÇëÊäÈëÒ»¸ö×Ö·û´®:");
         @SuppressWarnings("resource")
         String s = new Scanner(System.in).nextLine();
 

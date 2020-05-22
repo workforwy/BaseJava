@@ -2,13 +2,23 @@ package chapter03_for.pack1;
 
 public class Test3 {
     public static void main(String[] args) {
-        for (int i = 1; ; i++) {
-            double d = Math.random();// ç³»ç»Ÿéšæœºäº§ç”Ÿçš„æ•°æ®
-            if (d > 0.9) {
-                System.out.println("ç¬¬" + i + "æ¬¡" + d);
-                return;
-            }
-            System.out.println("ç¬¬" + i + "æ¬¡" + d);
-        }
+//        for (int i = 1; ; i++) {
+//            double d = Math.random();// ÏµÍ³Ëæ»ú²úÉúµÄÊý¾Ý
+//            if (d > 0.9) {
+//                System.out.println("µÚ" + i + "´Î" + d);
+////                return;
+//                break;
+////                continue;
+//            }
+////            System.out.println("µÚ" + i + "´Î" + d);
+//        }
+
+        double d;
+        int i = 1;
+        do {
+            d = Math.random();// ÏµÍ³Ëæ»ú²úÉúµÄÊý¾Ý
+            System.out.println("µÚ" + i + "´Î" + d);
+            i++;
+        } while (d < 0.9);
     }
 }

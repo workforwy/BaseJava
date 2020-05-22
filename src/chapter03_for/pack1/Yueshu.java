@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Yueshu {
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥æ•´æ•°æ˜¾ç¤ºå®ƒçš„çº¦æ•°");
+        System.out.println("ÊäÈëÕûÊıÏÔÊ¾ËüµÄÔ¼Êı");
         int n = new Scanner(System.in).nextInt();
         /*
-         * 1.å¾ªç¯iä»1åˆ°<=né€’å¢ 2.å¦‚æœnèƒ½è¢«iæ•´é™¤, 3.æ˜¾ç¤ºi
+         * 1.Ñ­»·i´Ó1µ½<=nµİÔö 2.Èç¹ûnÄÜ±»iÕû³ı, 3.ÏÔÊ¾i
          */
         for (int i = 1; i <= n; i++) {
-            System.out.println("è¿›è¡Œäº†ï¼š" + i);
             if (n % i == 0) {
                 System.out.println(i);
             }

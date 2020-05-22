@@ -11,9 +11,11 @@ public abstract class Test1 {
 	}
 
 	public static long f(int n) {
+		System.out.println(n);
 		if (n == 0) {
 			return 1;
 		}
+
 		return n * f(n - 1);
 	}
 }

@@ -7,9 +7,9 @@ import java.util.Scanner;
  */
 public class TheBigNumber {
     public static void main(String[] args) {
-        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—");
+        System.out.println("ÇëÊäÈëÒ»¸öÊı×Ö");
         int a = new Scanner(System.in).nextInt();
-        System.out.println("è¯·å†è¾“å…¥ä¸€ä¸ªæ•°å­—");
+        System.out.println("ÇëÔÙÊäÈëÒ»¸öÊı×Ö");
         int b = new Scanner(System.in).nextInt();
         theBigNumber1(a, b);
         theBigNumber2(a, b);

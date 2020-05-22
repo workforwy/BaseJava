@@ -5,27 +5,26 @@ import java.util.Scanner;
 
 public class Jiecheng {
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥æ•´æ•°æ±‚é˜¶ä¹˜:");
+        System.out.println("ÊäÈëÕûÊýÇó½×³Ë:");
         int n = new Scanner(System.in).nextInt();
-        String r = factorialByPositive(n);
-        System.out.println(r);
+        System.out.println(factorialByPositive(n));
         System.out.println(factorial(n));
     }
 
     /**
-     * æ­£æ•´æ•°çš„é˜¶ä¹˜ r=1 i=2 r*=i r=r*i
+     * ÕýÕûÊýµÄ½×³Ë r=1 i=2 r*=i r=r*i
      */
-    private static String factorialByPositive(int n) {
+    private static BigInteger factorialByPositive(int n) {
         BigInteger r = BigInteger.valueOf(1);
         for (int i = 2; i < n; i++) {
             BigInteger bi = BigInteger.valueOf(i);
             r = r.multiply(bi);
         }
-        return r.toString();
+        return r;
     }
 
     /**
-     * æ•°çš„é˜¶ä¹˜ 1.å®šä¹‰å˜é‡r = 1L 2.å¾ªçŽ¯i ä»Ž5åˆ°>=1é€’å‡ 3.r*=i 4.è¿”å›žrçš„å€¼
+     * ÊýµÄ½×³Ë 1.¶¨Òå±äÁ¿r = 1L 2.Ñ­»·i ´Ó5µ½>=1µÝ¼õ 3.r*=i 4.·µ»ØrµÄÖµ
      */
     private static long factorial(int n) {
         long r = 1;

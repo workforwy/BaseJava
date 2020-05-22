@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class Test3 {
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥åˆ†æ•°è®¡ç®—å­¦ç”Ÿå­¦ä¹ çŠ¶å†µï¼š");
+        System.out.println("ÊäÈë·ÖÊı¼ÆËãÑ§ÉúÑ§Ï°×´¿ö£º");
         int n = new Scanner(System.in).nextInt();
-        // è°ƒç”¨f()æ–¹æ³•ï¼Œå°†nçš„å€¼ä¼ é€’åˆ°fï¼ˆï¼‰æ–¹æ³•ä¸­è¿ç®—ï¼Œç„¶åå¾—åˆ°å®ƒçš„è¿”å›å€¼èµ‹ç»™å˜é‡r
+        // µ÷ÓÃf()·½·¨£¬½«nµÄÖµ´«µİµ½f£¨£©·½·¨ÖĞÔËËã£¬È»ºóµÃµ½ËüµÄ·µ»ØÖµ¸³¸ø±äÁ¿r
         String r = jisuan(n);
         System.out.println(r);
     }
 
     /**
-     * è®¡ç®—è¿‡ç¨‹
+     * ¼ÆËã¹ı³Ì
      *
      * @param n
      * @return
      */
     static String jisuan(int n) {
         if (n < 0 || n > 100) {
-            return "é”™è¯¯";
+            return "´íÎó";
         }
         String r = "";
         switch (n / 10) {

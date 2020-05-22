@@ -4,21 +4,20 @@ import java.util.Scanner;
 
 public class ZhiShu {
     public static void main(String[] args) {
-        System.out.println("è¾“å…¥næ±‚nä»¥å†…çš„è´¨æ•°çš„æ•°é‡:");
+        System.out.println("ÊäÈën,ÇónÒÔÄÚµÄÖÊÊıµÄÊıÁ¿:");
         int n = new Scanner(System.in).nextInt();
-        int count = f(n);
-        System.out.println(count);
+        System.out.println(fun(n));
     }
 
     /**
-     * 1.å®šä¹‰ä¸€ä¸ªè®¡æ•°å˜é‡c=1
-     * 2.å¾ªç¯i ä»3å¼€å§‹åˆ°<=né€’å¢
-     * 3.å¾ªç¯Jä»2åˆ°<=iå¼€æ–¹+é€’å¢ï¼ˆé¿å…æ¼é™¤æ•´æ•°ï¼‰
-     * 4.å¦‚æœièƒ½è¢«jæ•´é™¤
-     * 5.ç»§ç»­iå¾ªç¯ä¸‹ä¸€è½®
+     * 1.¶¨ÒåÒ»¸ö¼ÆÊı±äÁ¿c=1
+     * 2.Ñ­»·i ´Ó3¿ªÊ¼µ½<=nµİÔö
+     * 3.Ñ­»·J´Ó2µ½<=i¿ª·½+µİÔö£¨±ÜÃâÂ©³ıÕûÊı£©
+     * 4.Èç¹ûiÄÜ±»jÕû³ı
+     * 5.¼ÌĞøiÑ­»·ÏÂÒ»ÂÖ
      * 6.c++
      */
-    private static int f(int n) {
+    private static int fun(int n) {
         int c = 1;
         a:
         for (int i = 3; i <= n; i++) {
@@ -29,8 +28,6 @@ public class ZhiShu {
             }
             c++;
         }
-        b:
-        System.out.println(c);
         return c;
     }
 }

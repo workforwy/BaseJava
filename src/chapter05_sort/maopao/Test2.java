@@ -1,9 +1,9 @@
-package chapter05_sort.day0507;
+package chapter05_sort.maopao;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Test1 {
+public class Test2 {
 	public static void main(String[] args) {
 		int[] a = random();
 		System.out.println(Arrays.toString(a));

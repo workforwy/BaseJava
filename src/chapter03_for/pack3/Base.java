@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Base {
 
     public static void main(String[] args) {
-        doWhile();
+//        doWhile();
         while1();
     }
 

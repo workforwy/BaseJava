@@ -12,8 +12,6 @@ public class Test1 {
         System.out.println(ugly);
     }
 
-    ;
-
     private static String choushu(int n) {
         LinkedList<BigInteger> list3 = new LinkedList<>();
         LinkedList<BigInteger> list5 = new LinkedList<>();
@@ -55,7 +53,7 @@ public class Test1 {
          */
         long r = 0;
         int c = 0;
-        for (long i = 3; ; i++) {
+        for (int i = 3; ; i++) {
             long j = i;
             while (j % 3 == 0) {
                 j /= 3;

@@ -6,14 +6,16 @@ public class Test1 {
 		Point b = new Point(2, 3);
 		System.out.println(a.toString());
 		System.out.println(b.toString());
+
 		System.out.println(a.equals(b));
 		System.out.println(a.equals(a));
+
 		System.out.println(a.hashCode());
 		System.out.println(b.hashCode());
 		// == 比较的是内存地址
 		System.out.println(a == b);
 		if (a instanceof Object) {
-			System.out.println("123");
+			System.out.println("a 属于 object");
 		}
 	}
 }

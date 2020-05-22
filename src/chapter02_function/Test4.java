@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Test4 {
     public static void main(String[] args) {
-        System.out.println("å¹´ä»½ï¼š");
+        System.out.println("Äê·Ý£º");
         int y = new Scanner(System.in).nextInt();
-        System.out.println("æœˆä»½ ï¼š");
+        System.out.println("ÔÂ·Ý £º");
         int m = new Scanner(System.in).nextInt();
         int x = jiasuan(m, y);
         System.out.println(x);
