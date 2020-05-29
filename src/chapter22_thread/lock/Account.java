@@ -1,4 +1,4 @@
-package chapter22_thread.threadlock;
+package chapter22_thread.lock;
 
 public class Account {
 	public  static int account = 10000;

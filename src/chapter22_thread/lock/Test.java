@@ -1,4 +1,4 @@
-package chapter22_thread.threadlock;
+package chapter22_thread.lock;
 
 public class Test {
 	public static void main(String[] args) {

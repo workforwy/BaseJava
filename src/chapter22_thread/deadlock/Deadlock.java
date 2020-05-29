@@ -1,6 +1,6 @@
 package chapter22_thread.deadlock;
 
-public class deadlock extends Thread {
+public class Deadlock extends Thread {
 
     public static Object key1 = new Object();
     public static Object key2 = new Object();
@@ -10,26 +10,26 @@ public class deadlock extends Thread {
     public void run() {
         if (flag == 0) {
             synchronized (key1) {
-                System.out.println(getName() + "閿佷綇浜唊ey1");
+                System.out.println(getName() + "锁住了key1");
                 try {
-                    deadlock.sleep(10);
+                    sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
                 synchronized (key2) {
-                    System.out.println(getName() + "閿佷綇浜唊ey2");
+                    System.out.println(getName() + "锁住了key2");
                 }
             }
         } else {
             synchronized (key2) {
-                System.out.println(getName() + "閿佷綇浜唊ey2");
+                System.out.println(getName() + "锁住了key2");
                 try {
-                    deadlock.sleep(10);
+                    sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
                 synchronized (key1) {
-                    System.out.println(getName() + "閿佷綇浜唊ey1");
+                    System.out.println(getName() + "锁住了key1");
                 }
             }
         }

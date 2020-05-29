@@ -1,6 +1,6 @@
 package chapter22_thread.thead;
 
-public class ThreadSample {
+public class Test2 {
 	public static void main(String[] args) {
 		LoopThread thread = new LoopThread();
 		LoopRunner runner = new LoopRunner();

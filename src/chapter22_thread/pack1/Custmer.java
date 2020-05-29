@@ -1,4 +1,4 @@
-package chapter22_thread.test;
+package chapter22_thread.pack1;
 
 import java.util.Random;
 
@@ -15,10 +15,6 @@ public class Custmer extends Thread {
 		while(true){
 			try {
 				shop.consume();
-			} catch (InterruptedException e1) {
-				e1.printStackTrace();
-			}	
-			try {
 				Thread.sleep(new Random().nextInt(2000));
 			} catch (InterruptedException e) {
 				e.printStackTrace();

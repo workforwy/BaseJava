@@ -52,8 +52,6 @@ public class ConnectMyWebServer {
 			//¹Ø±ÕÁ÷
 			is.close();
 
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

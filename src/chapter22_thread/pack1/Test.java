@@ -1,4 +1,4 @@
-package chapter22_thread.test;
+package chapter22_thread.pack1;
 /**
  * 生产者和消费者的关系
  * 
