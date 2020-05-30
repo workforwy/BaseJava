@@ -2,6 +2,7 @@
 /target
 /.idea
 /out
+*.iml
 
 #编译文件
 *.class
