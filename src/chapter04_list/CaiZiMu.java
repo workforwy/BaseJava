@@ -34,7 +34,6 @@ public class CaiZiMu {
     }
 
     static String bijiao(char[] c, char[] r) {
-        // TODO Auto-generated method stub
         /*
          * A=0 B=0 r数组JKHJK c数组HIJHK 1.定义计数变量a=0 b=0 2.循环变量i从0到<5递增 3.循环j从
          * 0到<5递增 4.如果c[i]==r[j] 5.如果i=j a++ 6.否则 b++ 7.break 8.返回a+"A"+b+"B"

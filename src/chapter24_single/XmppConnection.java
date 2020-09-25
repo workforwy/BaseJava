@@ -7,7 +7,6 @@ public class XmppConnection {
         try {
             Thread.currentThread().sleep(300);
         } catch (Exception e) {
-            // TODO: handle exception
         }
     }
 

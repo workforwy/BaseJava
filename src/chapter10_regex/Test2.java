@@ -1,4 +1,4 @@
-package chapter10_regular;
+package chapter10_regex;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Test2 {
 		 * \d{15}| \d{15}|\d{17}[\dxX] "\需要\来转译" \\d{15}|\\d{17}[\\dxX]
 		 */
 		String regex = "\\d{15}|\\d{17}[\\dxX]";
-		if (s.matches(regex)) {// 判断当前字符串，能否与正则表达式匹配
+		if (s.matches(regex)) {
 			System.out.println("格式正确");
 		} else {
 			System.out.println("格式错误");

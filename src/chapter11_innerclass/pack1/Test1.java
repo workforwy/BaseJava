@@ -16,10 +16,11 @@ public class Test1 {
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println("---------------------");
-
-		System.out.println(a == b);// 比较内存地址
+// 比较内存地址
+		System.out.println(a == b);
 		System.out.println(b == c);
-		System.out.println(a.equals(b));// 比较内容
+		// 比较内容
+		System.out.println(a.equals(b));
 		System.out.println("---------------------");
 
 		System.out.println(a.byteValue());

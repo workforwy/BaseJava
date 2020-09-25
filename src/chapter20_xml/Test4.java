@@ -21,7 +21,6 @@ public class Test4 {
 		Print(email);
 	}
 	private static void Print(Element email) {
-		// TODO Auto-generated method stub
 		for(int i=0;i<email.nodeCount();i++){
 			Node node=email.node(i);
 			if(node instanceof Element){

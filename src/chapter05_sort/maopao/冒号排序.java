@@ -14,7 +14,6 @@ public class √∞∫≈≈≈–Ú {
 	}
 
 	private static int[] random() {
-		// TODO Auto-generated method stub
 		int len = 5 + new Random().nextInt(6);
 		int[] a = new int[len];
 		for (int i = 0; i < a.length; i++) {
@@ -24,7 +23,6 @@ public class √∞∫≈≈≈–Ú {
 	}
 
 	private static void sort(int[] a) {
-		// TODO Auto-generated method stub
 		for (int i = 00; i < a.length; i++) {
 			boolean flag = false;
 			for (int j = a.length - 1; j > i; j--) {

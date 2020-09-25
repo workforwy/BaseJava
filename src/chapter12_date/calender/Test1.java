@@ -1,10 +1,13 @@
-package chapter12_Date.calender;
+package chapter12_date.calender;
 
 import java.util.Calendar;
 
 public class Test1 {
+	/**
+	 *  新建的日历对象表示当前的时间
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		// 新建的日历对象表示当前的时间
 		Calendar c = Calendar.getInstance();
 		System.out.println(c.getTime());
 

@@ -1,5 +1,5 @@
 
-package chapter10_regular;
+package chapter10_regex;
 
 import java.util.Scanner;
 

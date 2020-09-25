@@ -16,7 +16,6 @@ public class 二分法研究 {
 	}
 
 	private static int[] random() {
-		// TODO Auto-generated method stub
 		int len = 5 + new Random().nextInt(6);// 规定在数组的取值范围为5到11
 		int[] a = new int[len];// 数组a为规定范围内的数组值
 		for (int i = 0; i < a.length; i++) {
@@ -26,7 +25,6 @@ public class 二分法研究 {
 	}
 
 	private static int binarySearch(int[] a, int t) {
-		// TODO Auto-generated method stub
 		int lo = 0;// 定义最小值为0
 		int hi = a.length - 1;// 定义最大值为数组a的长度-1
 		int mid;// 定义mid的值
