@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <activity android:name="day21.MainActivity"/>
+</application>
