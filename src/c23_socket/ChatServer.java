@@ -1,4 +1,4 @@
-package chapter27_junit;
+package c23_socket;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
