@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contacts SYSTEM "contact.dtd">
+<!-- 定义一个根元素 -->
+<contacts>
+ <contact type="A">
+    <phone>139</phone>
+    <name>A</name>
+    <email/>
+ </contact>
+</contacts>
