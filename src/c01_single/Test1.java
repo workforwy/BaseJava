@@ -1,4 +1,4 @@
-package c01;
+package c01_single;
 
 public class Test1 {
     public static void main(String[] args) {

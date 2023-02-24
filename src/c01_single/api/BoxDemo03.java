@@ -1,4 +1,4 @@
-package c01.api;
+package c01_single.api;
 
 public class BoxDemo03 {
     public static void main(String[] args) {

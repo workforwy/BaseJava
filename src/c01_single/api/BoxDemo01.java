@@ -1,4 +1,4 @@
-package c01.api;
+package c01_single.api;
 
 class Box01 {
     byte t0;

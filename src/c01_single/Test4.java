@@ -1,4 +1,4 @@
-package c01;
+package c01_single;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

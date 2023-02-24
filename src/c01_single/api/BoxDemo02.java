@@ -1,4 +1,4 @@
-package c01.api;
+package c01_single.api;
 
 class MyInteger {
     static class IntegerCache {
